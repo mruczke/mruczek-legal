@@ -15,6 +15,126 @@
 <p><strong>Controller and sole user:</strong> MruczkeFOTO, Warszawa, Poland, contact: mruczkefoto@gmail.com (“I”, “the owner”).</p>
 
 <h2>1. What MRUCZEK 1.0 is</h2>
+<p>MRUCZEK 1.0 is a private, local back-office tool for my own photography business. It runs only on my own computer and is accessible only from my own devices over a private network. It is <strong>not offered to the public</strong>, and nobody except me can sign in to it. It connects to TikTok through the official TikTok API (Login Kit and Display API) to <strong>read statistics of my own TikTok account</strong>, and to Instagram through the official Instagram API (Meta) for <strong>my own business Instagram account (@mruczke)</strong>. It does not post, delete, edit or like anything on TikTok or Instagram. On TikTok it sends nothing. On Instagram it may send a private reply to a person who commented on my post with a keyword, as described in section 2a.</p>
+
+<h2>2. Data accessed from TikTok</h2>
+<p>Only after I authorise the app with my own TikTok account, and only for the scopes I granted:</p>
+<table>
+<tr><th>Scope</th><th>Data</th></tr>
+<tr><td>user.info.basic</td><td>open ID, display name</td></tr>
+<tr><td>user.info.profile</td><td>username, verification status</td></tr>
+<tr><td>user.info.stats</td><td>follower count, following count, likes count, video count</td></tr>
+<tr><td>video.list</td><td>my public videos: ID, title, description, duration, share link, view, like, comment and share counts, publication time</td></tr>
+</table>
+<p>The app requests only the fields listed above, even where a scope would allow more. It does not access private videos, other people’s accounts, followers’ lists, messages or contact lists, and does not collect data about other TikTok users.</p>
+
+<h2 id="ig">2a. Instagram (Meta) data</h2>
+<p>Only for my own Instagram business account, after I authorise the app, and only for the permissions granted:</p>
+<table>
+<tr><th>Permission</th><th>Data and use</th></tr>
+<tr><td>instagram_basic</td><td>my account profile, my media and its public metrics (reach, likes, comments), used for my own statistics</td></tr>
+<tr><td>instagram_manage_comments</td><td>comments left on my own posts: comment text, the commenter’s Instagram-scoped ID and username, time. Used to notice when someone asks about my services (for example by writing a keyword such as “klucz” or “cennik”)</td></tr>
+<tr><td>instagram_manage_messages</td><td>to send <strong>one private reply</strong> to a person who commented on my post with such a keyword, only within the period and rules allowed by Meta (private reply to a comment, within 7 days). No bulk messaging, no unsolicited messages to people who did not comment</td></tr>
+</table>
+<p>Replies are sent only under rules I set myself, with a rate limit, and I can stop all automation at any moment. Comments from people who are not potential customers are anonymised (the author’s identifiers are removed) after 30 days. Contact data of a potential customer is saved in my customer records only after I confirm it myself. I do not sell this data, do not use it for advertising, and do not combine it with data from other sources to profile people. I do not collect Instagram data about people who did not interact with my account.</p>
+<p><strong>Deleting your data (Instagram):</strong> if you commented on my posts or messaged me and want your data removed, write to mruczkefoto@gmail.com with your Instagram username, or send me a message on Instagram (@mruczke). I will delete it from my records within 30 days and confirm. You can also remove the app’s access to your account under Instagram Settings, Apps and websites.</p>
+
+<h2>3. Purpose</h2>
+<p>I use TikTok and Instagram statistics only to understand how my own content performs and to plan it. I use Instagram comments only to answer people who ask about my photography services. The data is not used for advertising, profiling of other people, resale or any purpose unrelated to my own business.</p>
+
+<h2>4. Storage and security</h2>
+<p>Data is stored in a local database on my own computer, protected by the operating-system account. Access tokens are stored encrypted (the encryption key is kept in the operating-system keychain) and are never written to logs or shown in the interface. The app is not exposed to the public internet; remote access from my phone is possible only through a private Tailscale network and requires a one-time pairing code.</p>
+
+<h2>5. Sharing</h2>
+<p>I do not sell, rent or share TikTok or Instagram data with third parties. Data is not transferred to any other service by the app. When I ask my AI assistant to help me analyse my own statistics, the figures I choose to discuss are processed by the provider of that assistant under my own account and its terms; this concerns only statistics of my own accounts and does not include the contact details or message content of other people.</p>
+
+<h2>6. Retention and deletion</h2>
+<p>Data is kept on my computer until I delete it. When I disconnect TikTok in the app, the stored access token is deleted immediately. I can also revoke the app’s access at any time in TikTok (Settings and privacy, Security, Apps and services / Manage app permissions), after which the app can no longer read my data. Previously stored statistics can be deleted on request by removing them from the local database. Instagram comments of people who are not potential customers are anonymised after 30 days; data of a potential customer is kept in my customer records until I delete it or the person asks me to (see section 2a). To request deletion, contact me at mruczkefoto@gmail.com.</p>
+
+<h2>7. Your rights</h2>
+<p>TikTok data concerns only my own account, so I am both the controller and the person concerned. Instagram data may also concern other people (for example, those who comment on my posts); I am the controller of that data. If this app processes your personal data, you can contact me at mruczkefoto@gmail.com to ask for access, correction, restriction or deletion, and you can complain to the Polish data protection authority (UODO) or your local authority. Under the GDPR the lawful basis is my legitimate interest in running my own business and answering people who ask about my services (Art. 6(1)(f)) and my own consent as the account holder (Art. 6(1)(a)).</p>
+
+<h2>8. Children</h2>
+<p>The app is not directed at children and does not knowingly process data of anyone under 18.</p>
+
+<h2>9. Changes</h2>
+<p>I may update this policy; the date at the top shows the latest version.</p>
+<p>TikTok, Instagram and Meta are trademarks of their owners. MRUCZEK 1.0 is an independent tool and is not endorsed by or affiliated with TikTok or Meta.</p>
+</section>
+
+<hr>
+
+<section id="pl" lang="pl">
+<h1>Polityka prywatności: MRUCZEK 1.0</h1>
+<p>Ostatnia aktualizacja: 21 listopada 2026</p>
+<p><strong>Administrator i jedyny użytkownik:</strong> MruczkeFOTO, Warszawa, Polska, kontakt: mruczkefoto@gmail.com („ja”, „właściciel”).</p>
+
+<h2>1. Czym jest MRUCZEK 1.0</h2>
+<p>MRUCZEK 1.0 to prywatne, lokalne narzędzie zaplecza mojej działalności fotograficznej. Działa wyłącznie na moim komputerze i jest dostępne tylko z moich urządzeń przez sieć prywatną. <strong>Nie jest udostępniane publicznie</strong>, a zalogować się do niego mogę tylko ja. Łączy się z TikTokiem przez oficjalne API (Login Kit i Display API), aby <strong>odczytywać statystyki mojego własnego konta TikTok</strong>, oraz z Instagramem przez oficjalne API (Meta) dla <strong>mojego własnego konta firmowego (@mruczke)</strong>. Nie publikuje, nie usuwa, nie edytuje i nie lajkuje niczego na TikToku ani Instagramie. Na TikToku niczego nie wysyła. Na Instagramie może wysłać prywatną odpowiedź osobie, która skomentowała mój post słowem kluczowym, jak opisano w punkcie 2a.</p>
+
+<h2>2. Dane pobierane z TikToka</h2>
+<p>Dopiero po tym, jak sam autoryzuję aplikację swoim kontem TikTok, i tylko w zakresie przyznanych uprawnień:</p>
+<table>
+<tr><th>Zakres</th><th>Dane</th></tr>
+<tr><td>user.info.basic</td><td>identyfikator open ID, nazwa wyświetlana</td></tr>
+<tr><td>user.info.profile</td><td>nazwa użytkownika, status weryfikacji</td></tr>
+<tr><td>user.info.stats</td><td>liczba obserwujących, obserwowanych, polubień i filmów</td></tr>
+<tr><td>video.list</td><td>moje publiczne filmy: identyfikator, tytuł, opis, czas trwania, link, liczba wyświetleń, polubień, komentarzy i udostępnień, czas publikacji</td></tr>
+</table>
+<p>Aplikacja prosi tylko o wymienione pola, nawet jeśli zakres pozwalałby na więcej. Nie ma dostępu do filmów prywatnych, kont innych osób, list obserwujących, wiadomości ani kontaktów i nie zbiera danych o innych użytkownikach TikToka.</p>
+
+<h2 id="ig-pl">2a. Dane z Instagrama (Meta)</h2>
+<p>Wyłącznie dla mojego własnego konta firmowego, po mojej autoryzacji aplikacji i tylko w zakresie przyznanych uprawnień:</p>
+<table>
+<tr><th>Uprawnienie</th><th>Dane i zastosowanie</th></tr>
+<tr><td>instagram_basic</td><td>profil mojego konta, moje publikacje i ich publiczne wskaźniki (zasięg, polubienia, komentarze), do własnych statystyk</td></tr>
+<tr><td>instagram_manage_comments</td><td>komentarze pod moimi postami: treść, identyfikator i nazwa użytkownika komentującego, czas. Służą do zauważenia, że ktoś pyta o moje usługi (np. wpisując słowo kluczowe, takie jak „klucz” lub „cennik”)</td></tr>
+<tr><td>instagram_manage_messages</td><td>wysłanie <strong>jednej prywatnej odpowiedzi</strong> osobie, która skomentowała mój post takim słowem, tylko w czasie i na zasadach dozwolonych przez Meta (prywatna odpowiedź na komentarz, do 7 dni). Bez masowych wiadomości i bez wiadomości do osób, które nie skomentowały</td></tr>
+</table>
+<p>Odpowiedzi wysyłam wyłącznie według ustalonych przeze mnie reguł, z limitem częstotliwości, a całą automatyzację mogę zatrzymać w każdej chwili. Komentarze osób, które nie są potencjalnymi klientami, są anonimizowane (usuwane są identyfikatory autora) po 30 dniach. Dane kontaktowe potencjalnego klienta zapisuję w swojej bazie klientów dopiero po własnym potwierdzeniu. Nie sprzedaję tych danych, nie używam ich do reklam i nie łączę z danymi z innych źródeł w celu profilowania. Nie zbieram danych z Instagrama o osobach, które nie weszły w interakcję z moim kontem.</p>
+<p><strong>Usunięcie Twoich danych (Instagram):</strong> jeśli komentowałeś(-aś) moje posty lub pisałeś(-aś) do mnie i chcesz usunięcia danych, napisz na mruczkefoto@gmail.com z nazwą użytkownika na Instagramie albo wyślij wiadomość na Instagramie (@mruczke). Usunę dane z moich zapisów w ciągu 30 dni i potwierdzę. Dostęp aplikacji do swojego konta możesz też cofnąć w Instagramie: Ustawienia, Aplikacje i strony internetowe.</p>
+
+<h2>3. Cel</h2>
+<p>Statystyki z TikToka i Instagrama wykorzystuję wyłącznie do oceny, jak radzą sobie moje własne treści, i do ich planowania. Komentarze z Instagrama wykorzystuję wyłącznie do odpowiadania osobom, które pytają o moje usługi fotograficzne. Dane nie służą do reklam, profilowania innych osób, odsprzedaży ani żadnych celów niezwiązanych z moją działalnością.</p>
+
+<h2>4. Przechowywanie i bezpieczeństwo</h2>
+<p>Dane są zapisane w lokalnej bazie na moim komputerze, chronionej kontem systemu operacyjnego. Tokeny dostępu są przechowywane w postaci zaszyfrowanej (klucz szyfrujący leży w pęku kluczy systemu), nie trafiają do logów ani do interfejsu. Aplikacja nie jest wystawiona do publicznego internetu; zdalny dostęp z mojego telefonu jest możliwy tylko przez prywatną sieć Tailscale i wymaga jednorazowego kodu parowania.</p>
+
+<h2>5. Udostępnianie</h2>
+<p>Nie sprzedaję, nie wynajmuję i nie udostępniam danych z TikToka ani Instagrama osobom trzecim. Aplikacja nie przekazuje danych do żadnych innych usług. Gdy proszę mojego asystenta AI o pomoc w analizie własnych statystyk, liczby, które sam wybiorę do omówienia, są przetwarzane przez dostawcę asystenta na moim koncie i na jego warunkach; dotyczy to wyłącznie statystyk moich własnych kont i nie obejmuje danych kontaktowych ani treści wiadomości innych osób.</p>
+
+<h2>6. Okres przechowywania i usuwanie</h2>
+<p>Dane przechowuję na moim komputerze do czasu ich usunięcia. Po odłączeniu TikToka w aplikacji zapisany token dostępu jest usuwany od razu. Dostęp aplikacji mogę też w każdej chwili cofnąć w TikToku (Ustawienia i prywatność, Bezpieczeństwo, Aplikacje i usługi / Zarządzaj uprawnieniami aplikacji), po czym aplikacja nie odczyta już moich danych. Zapisane wcześniej statystyki można usunąć na wniosek, usuwając je z lokalnej bazy. Komentarze z Instagrama osób niebędących potencjalnymi klientami są anonimizowane po 30 dniach; dane potencjalnego klienta przechowuję w bazie klientów do czasu ich usunięcia przeze mnie lub na prośbę tej osoby (patrz punkt 2a). Wniosek o usunięcie: mruczkefoto@gmail.com.</p>
+
+<h2>7. Prawa osób, których dane dotyczą</h2>
+<p>Dane z TikToka dotyczą wyłącznie mojego własnego konta, więc jestem jednocześnie administratorem i osobą, której dane dotyczą. Dane z Instagrama mogą dotyczyć także innych osób (np. komentujących moje posty); jestem administratorem tych danych. Jeśli aplikacja przetwarza Twoje dane osobowe, napisz na mruczkefoto@gmail.com, aby poprosić o dostęp, sprostowanie, ograniczenie przetwarzania lub usunięcie; możesz też złożyć skargę do Prezesa UODO. Podstawą prawną (RODO) jest mój prawnie uzasadniony interes w prowadzeniu własnej działalności i odpowiadaniu osobom pytającym o moje usługi (art. 6 ust. 1 lit. f) oraz moja zgoda jako posiadacza konta (art. 6 ust. 1 lit. a).</p>
+
+<h2>8. Dzieci</h2>
+<p>Aplikacja nie jest kierowana do dzieci i świadomie nie przetwarza danych osób poniżej 18 lat.</p>
+
+<h2>9. Zmiany</h2>
+<p>Mogę zmieniać tę politykę; data u góry wskazuje najnowszą wersję.</p>
+<p>TikTok, Instagram i Meta są znakami towarowymi swoich właścicieli. MRUCZEK 1.0 to niezależne narzędzie, niepowiązane z TikTokiem ani Meta i przez nie niepolecane.</p>
+</section>
+</body>
+</html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy / Polityka prywatności: MRUCZEK 1.0</title>
+<style>body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:46rem;margin:2rem auto;padding:0 1rem;color:#1d1d1f}h1{font-size:1.6rem}h2{font-size:1.2rem;margin-top:2rem}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccc;padding:.4rem .6rem;text-align:left;vertical-align:top}nav a{margin-right:1rem}.note{background:#fff8d6;border:1px solid #e6d37a;padding:.6rem .9rem}</style>
+</head>
+<body>
+<nav><a href="#en">English</a><a href="#pl">Polski</a></nav>
+
+<section id="en">
+<h1>Privacy Policy: MRUCZEK 1.0</h1>
+<p>Last updated: 21 November 2026</p>
+<p><strong>Controller and sole user:</strong> MruczkeFOTO, Warszawa, Poland, contact: mruczkefoto@gmail.com (“I”, “the owner”).</p>
+
+<h2>1. What MRUCZEK 1.0 is</h2>
 <p>MRUCZEK 1.0 is a private, local back-office tool for my own photography business. It runs only on my own computer and is accessible only from my own devices over a private network. It is <strong>not offered to the public</strong>, and nobody except me can sign in to it. It connects to TikTok through the official TikTok API (Login Kit and Display API) to <strong>read statistics of my own TikTok account</strong>. It does not post, delete, edit, like, comment or send messages on TikTok.</p>
 
 <h2>2. Data accessed from TikTok</h2>
